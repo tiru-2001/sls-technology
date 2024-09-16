@@ -1,12 +1,16 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.font {
-	font-family: "Open Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 300;
-	font-style: normal;
-	font-variation-settings: "wdth" 100;
+
+.inter-font {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  background-color: black;
 }
