@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "sls",
+=======
+  "name": "slstechnology",
+>>>>>>> 5048d99575d51e8820836c20f3b7e9aa66888ff3
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,7 +18,17 @@
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
     "sass": "^1.78.0"
+=======
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "react-slick": "^0.30.2",
+    "sass": "^1.78.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14",
+    "uuid": "^10.0.0"
+>>>>>>> 5048d99575d51e8820836c20f3b7e9aa66888ff3
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

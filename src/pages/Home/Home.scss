@@ -1,0 +1,19 @@
+@import '../../globalscss/global.scss';
+.home {
+  min-height: 100vh;
+  .home_section1 {
+    min-height: 100vh;
+    @include flex(row, null, center, 0px);
+
+    .img_container {
+      height: 100% !important;
+
+      img {
+        height: 500px;
+        object-fit: cover;
+        width: 100%;
+        filter: grayscale(100%);
+      }
+    }
+  }
+}

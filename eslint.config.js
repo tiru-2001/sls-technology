@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import js from '@eslint/js'
 import globals from 'globals'
 import react from 'eslint-plugin-react'
@@ -6,6 +7,16 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
   { ignores: ['dist','src'] },
+=======
+import js from '@eslint/js';
+import globals from 'globals';
+import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
+
+export default [
+  { ignores: ['dist', 'src'] },
+>>>>>>> 5048d99575d51e8820836c20f3b7e9aa66888ff3
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -35,4 +46,8 @@ export default [
       ],
     },
   },
+<<<<<<< HEAD
 ]
+=======
+];
+>>>>>>> 5048d99575d51e8820836c20f3b7e9aa66888ff3
