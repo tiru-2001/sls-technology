@@ -3,6 +3,7 @@ import { Carousel } from '../../components';
 
 import { home_carousel_items } from '../../utilities';
 import Services from '../../components/services/Services';
+import Clients from '../../components/clients/Clients';
 const Home = () => {
   return (<>
     <section className="home">
@@ -16,7 +17,8 @@ const Home = () => {
         </Carousel>
       </section>
     </section>
-    <Services/>
+    <Services />
+    <Clients/>
     </>
   );
 };
