@@ -20,3 +20,9 @@
 //   height: 100%;
 //   object-fit: cover;
 // }
+.slider-container {
+  width: 2000px;
+  transform: translateX(0);
+  height: 100%;
+  border: 2px solid red;
+}

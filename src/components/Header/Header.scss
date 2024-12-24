@@ -6,8 +6,12 @@
   width: 100%;
   .logo {
     padding: 5px 10px;
+    @include flex(column, null, center, 0px);
     img {
       height: 80px;
+    }
+    h3 {
+      color: white;
     }
   }
 

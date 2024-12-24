@@ -2,12 +2,12 @@
 .home {
   min-height: 100vh;
   .home_section1 {
-    min-height: 100vh;
-    @include flex(row, null, center, 0px);
-
+    // height: 100vh;
+    border: 2px solid white;
+    overflow: hidden;
+    // @include flex(row, null, center, 0px);
     .img_container {
-      height: 100% !important;
-
+      padding: 0px 30px;
       img {
         height: 500px;
         object-fit: cover;

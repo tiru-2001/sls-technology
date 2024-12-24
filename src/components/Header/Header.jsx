@@ -28,6 +28,7 @@ const Header = () => {
     <header className="header">
       <section className="logo">
         <img src={logo} alt="logo" />
+        <h5>design roots</h5>
       </section>
       <nav>
         {navItems.map((item) => (

@@ -1,0 +1,155 @@
+.design-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #000;
+  gap: 40px;
+  flex-wrap: wrap;
+
+  @media (max-width: 1050px) {
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+    @media (max-width: 600px) {
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #d1c59f;
+    max-width: 800px;
+    margin: 0 auto;
+
+    @media (max-width: 600px) {
+      font-size: 1rem;
+      max-width: 90%;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 0.9rem;
+      max-width: 100%;
+    }
+  }
+}
+
+.card {
+  width: 450px;
+  height: auto;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(183, 179, 162);
+  text-align: left;
+  color: #000;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+
+  h5 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 1.2rem;
+      margin-top: 30px;
+    }
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+
+    @media (max-width: 600px) {
+      font-size: 1rem;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 0.9rem;
+    }
+  }
+
+  .icon {
+    height: 150px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 20px;
+
+    @media (max-width: 400px) {
+      height: 120px;
+    }
+  }
+
+  &.highlighted {
+    background-color: rgb(229, 255, 93);
+  }
+
+  &.lighted {
+    background-color: rgb(249, 249, 249);
+  }
+
+  @media (max-width: 1050px) {
+    width: 650px;
+    padding: 20px;
+  }
+
+  @media (max-width: 600px) {
+    width: 90%;
+    padding: 15px;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.icon-1 {
+  background-image: url('https://designroots3d.com/wp-content/uploads/2023/10/3D-Printing-company-200x150-1.png');
+}
+
+.icon-2 {
+  background-image: url('https://designroots3d.com/wp-content/uploads/2023/10/3D-Scanning-200x150-1.png');
+}
+
+.icon-3 {
+  background-image: url('https://designroots3d.com/wp-content/uploads/2023/10/Batch-Production-200x150-1.png');
+}
+
+@media (max-width: 400px) {
+  .design-container {
+    padding: 10px;
+  }
+}
